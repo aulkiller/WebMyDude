@@ -83,8 +83,11 @@ nav a:hover {
 footer {
     padding-top: 100px;
     padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: white;
     background-color: rgb(37, 37, 37);
+    text-align: center;
 }
 
 footer li {
@@ -96,6 +99,10 @@ footer li {
     padding: 30px;
     text-align: center;
     font-size: 18px;
+}
+
+.region{
+    padding-bottom: 10px;
 }
 
 #icon_copyright{

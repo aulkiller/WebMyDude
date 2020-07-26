@@ -36,7 +36,8 @@ nav a:hover {
 
 /* FOOTER SECTION */
 footer {
-    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 70px;
     color: white;
     background-color: rgb(37, 37, 37);
 }
@@ -47,6 +48,11 @@ footer li {
 }
 
 .copyright{
+    padding: 30px;
     text-align: center;
     font-size: 18px;
+}
+
+#icon_copyright{
+    width: 25px;
 }

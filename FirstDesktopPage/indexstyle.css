@@ -20,7 +20,7 @@ h1 {
 }
 
 p {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     margin: 0;
@@ -28,7 +28,7 @@ p {
 }
 
 a.btn {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     color: #0094FF;
@@ -63,7 +63,7 @@ nav li {
 }
 
 nav a {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 400;
@@ -124,10 +124,10 @@ nav a:hover {
 
 /* FOOTER SECTION */
 footer {
-    /* padding-top: 100px; */
-    padding-top: 40px;
-    /* padding-bottom: 70px; */
-    padding-bottom: 0px;
+    padding-top: 100px;
+    /* padding-top: 40px; */
+    padding-bottom: 70px;
+    /* padding-bottom: 0px; */
     padding-left: 30px;
     padding-right: 30px;
     color: white;

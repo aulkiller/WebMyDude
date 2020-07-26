@@ -34,6 +34,27 @@ nav a:hover {
 
 /* CONTENT SECTION */
 
+#section-a{
+    background: #FFFFFF;
+    color: #000000;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+#section-b{
+    background: #FFFFFF;
+    color: #000000;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+#section-c{
+    background: #FFFFFF;
+    color: #000000;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
 /* FOOTER SECTION */
 footer {
     padding: 20px;

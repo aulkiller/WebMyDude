@@ -43,7 +43,10 @@ a.btn {
 /* HEADER SECTION */
 
 header{
-    background-image: url("../assets/images/bg.svg");
+    background-image: url("../assets/images/bg.svg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-bottom: 100px;
 }
 

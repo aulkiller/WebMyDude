@@ -34,6 +34,12 @@ a.btn {
     color: #0094FF;
 }
 
+.btn{
+    display: inline-block;
+    padding: 1em 2em;
+    margin: .5em 0;
+}
+
 /* HEADER SECTION */
 nav {
     display: inline;
@@ -65,17 +71,21 @@ nav a:hover {
     text-align: center;
 }
 
+#section-a .content-wrap{
+    padding: 0 1.5em;
+}
+
 #section-b{
     background: #FFFFFF;
     color: #000000;
-    padding-bottom: 2em;
+    padding: 2em;
     text-align: center;
 }
 
 #section-c{
     background: #FFFFFF;
     color: #000000;
-    padding-bottom: 2em;
+    padding: 2em;
     text-align: center;
 }
 
@@ -94,4 +104,23 @@ footer li {
 .copyright{
     text-align: center;
     font-size: 18px;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+#icon_copyright{
+    width: 25px;
+}
+
+/* Media Queries */
+
+@media (min-width: 700px) {
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+  }
+  
+>>>>>>> Stashed changes

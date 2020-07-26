@@ -67,11 +67,11 @@ nav a:hover {
 #section-a{
     background: #FFFFFF;
     color: #000000;
-    padding-bottom: 2em;
+    padding: 2em;
     text-align: center;
 }
 
-#section-a .content-wrap{
+.content-wrap{
     padding: 0 1.5em;
 }
 
@@ -112,11 +112,29 @@ footer li {
 
 /* Media Queries */
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
     .grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(8, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: 100px;
+      grid-template-areas: 
+        "a a a a b b b b"
+        "a a a a b b b b"
+        "c c c c c c c c"
+        "c c c c c c c c";
     }
-  
-  }
+
+    #section-a{
+        grid-area: a;
+    }
+
+    #section-b{
+        grid-area: b;
+    }
+
+    #section-c{
+        grid-area: c;
+    }
+}
   

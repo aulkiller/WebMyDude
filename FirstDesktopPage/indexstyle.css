@@ -11,12 +11,19 @@ body{
 }
 
 /* HEADER SECTION */
+
+header{
+    background-image: url("../assets/images/bg.svg");
+    padding-bottom: 100px;
+}
 nav {
     display: inline;
+    text-align: right;
 }
 
 nav li {
     display: inline;
+    padding-right: 50px;
 }
 
 nav a {
@@ -30,6 +37,17 @@ nav a:hover {
 
 .middle {
     text-align: center;
+}
+
+.middletext{
+    color: white;
+}
+
+.alfalogo{
+    padding: 20px;
+}
+.nav-items{
+    margin-left: 100px ;
 }
 
 /* CONTENT SECTION */

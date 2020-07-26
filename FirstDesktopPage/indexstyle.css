@@ -76,10 +76,15 @@ nav a:hover {
 .alfalogo{
     padding: 20px;
 }
+
 .nav-items{
     margin-left: 100px ;
 }
 
+.middleCP{
+    color: white;
+    padding: 20px;
+}
 /* CONTENT SECTION */
 
 #section-a{

@@ -36,7 +36,7 @@ a.btn {
 
 .btn{
     display: inline-block;
-    padding: 1em 2em;
+    padding: 0 2em;
     margin: .5em 0;
 }
 
@@ -54,12 +54,14 @@ nav {
 }
 
 nav li {
-    display: inline;
+    display: none;
     padding-right: 50px;
     clear: both;
 }
 
 nav a {
+    font-family: 'Open Sans';
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: 400;
 }
@@ -151,6 +153,9 @@ footer li {
 /* Media Queries */
 
 @media (min-width: 1000px) {
+    nav li {
+        display: inline;
+    }
     .grid {
       display: grid;
       margin-top: 100px;

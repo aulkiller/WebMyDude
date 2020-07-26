@@ -46,26 +46,30 @@ header{
     background-image: url("../assets/images/bg.svg");
     padding-bottom: 100px;
 }
+
 nav {
     display: inline;
     text-align: right;
+    padding: 25px;
 }
 
 nav li {
     display: inline;
     padding-right: 50px;
+    clear: both;
 }
 
 nav a {
     text-decoration: none;
     font-weight: 400;
-
 }
+
 nav a:hover {
     font-weight: bold;
 }
 
 .middle {
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -75,6 +79,7 @@ nav a:hover {
 
 .alfalogo{
     padding: 20px;
+    float: left;
 }
 
 .nav-items{
@@ -148,6 +153,8 @@ footer li {
 @media (min-width: 1000px) {
     .grid {
       display: grid;
+      margin-top: 100px;
+      margin-bottom: 150px;
       grid-template-columns: repeat(8, 1fr);
       grid-gap: 10px;
       grid-auto-rows: 100px;

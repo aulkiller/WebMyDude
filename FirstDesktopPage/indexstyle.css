@@ -45,7 +45,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 120px;
+    padding-bottom: 140px;
 }
 
 nav {
@@ -78,6 +78,7 @@ nav a:hover {
     font-weight: bold;
     color: white;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .menu-btn{
@@ -191,7 +192,7 @@ footer li {
 
     .grid {
       display: grid;
-      margin-top: 100px;
+      margin-top: 70px;
       margin-bottom: 150px;
       grid-template-columns: repeat(8, 1fr);
       grid-gap: 10px;

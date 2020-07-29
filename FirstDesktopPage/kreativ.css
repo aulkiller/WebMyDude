@@ -14,6 +14,10 @@ nav {
     background-color: transparent;
 }
 
+nav a:hover {
+    color: black;
+}
+
 header {
     background-color: white;
     padding-bottom: 140px;

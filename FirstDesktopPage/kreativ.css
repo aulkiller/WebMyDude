@@ -1,0 +1,35 @@
+/*Header*/
+
+.alfalogo{
+    padding: 10px;
+    /* margin-left: 30px; */
+    width: 100px;
+}
+
+nav a {
+    color: black;
+}
+
+nav {
+    background-color: transparent;
+}
+
+nav a:hover {
+    color: black;
+}
+
+header {
+    background-color: white;
+    padding-bottom: 140px;
+}
+
+.middle {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.middlepart1 {
+    padding: 10px 80px 0px 80px;
+    text-align: center;
+}
+

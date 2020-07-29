@@ -51,9 +51,15 @@ header{
 }
 
 nav {
-    display: inline;
-    text-align: right;
-    padding: 25px;
+    display: flex;
+    /* text-align: right; */
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 25px; */
+}
+
+nav ul {
+    display: flex;
 }
 
 nav li {
@@ -73,6 +79,19 @@ nav a:hover {
     font-weight: bold;
 }
 
+.menu-btn{
+    padding-right: 8%;
+    padding-bottom: 2%;
+}
+
+
+.menu-btn div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+}
+
 .middle {
     padding-top: 100px;
     text-align: center;
@@ -84,7 +103,6 @@ nav a:hover {
 
 .alfalogo{
     padding: 20px;
-    float: left;
 }
 
 .nav-items{
@@ -157,10 +175,15 @@ footer li {
 
 /* Media Queries */
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
     nav li {
-        display: inline;
+        display: inline-block;
     }
+
+    .menu-btn{
+        display: none;
+    }
+
     .grid {
       display: grid;
       margin-top: 100px;

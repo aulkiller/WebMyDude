@@ -51,11 +51,12 @@ a.btn {
 }
 /*Headernya pake id*/
 #index {
+    display: grid;
     background-image: url("../assets/images/bg.svg") ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 140px;
+    padding-bottom: 380px;
 }
 
 nav {
@@ -64,8 +65,19 @@ nav {
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    padding-top: 10px;
     /* padding: 25px; */
 
+}
+
+
+.alfalogo{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 30px; */
+    width: 40px;
 }
 
 nav ul {
@@ -133,12 +145,6 @@ nav a.black:hover {
     color: white;
 }
 
-.alfalogo{
-    padding: 10px;
-    /* margin-left: 30px; */
-    width: 60px;
-}
-
 .nav-items{
     margin-left: 100px ;
     margin-top: 10px;
@@ -154,9 +160,9 @@ nav a.black:hover {
     width: 100%;
     height: auto;
 }
-
+/* warna buat layouting ntar dihapus */
 #section-a{
-    background: #FFFFFF;
+    background: green;
     color: #000000;
     padding: 2em;
     text-align: center;
@@ -167,14 +173,14 @@ nav a.black:hover {
 }
 
 #section-b{
-    background: #FFFFFF;
+    background: red;
     color: #000000;
     padding: 2em;
     text-align: center;
 }
 
 #section-c{
-    background: #FFFFFF;
+    background: blue;
     color: #000000;
     padding: 2em;
     text-align: center;
@@ -224,10 +230,10 @@ footer li {
     .grid {
       display: grid;
       margin-top: 10px;
-      margin-bottom: 150px;
+      margin-bottom: 10px;
       grid-template-columns: repeat(8, 1fr);
       grid-gap: 10px;
-      grid-auto-rows: 100px;
+      grid-auto-rows: 180px;
       grid-template-areas: 
         "a a a a b b b b"
         "a a a a b b b b"

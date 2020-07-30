@@ -33,3 +33,29 @@ header {
     text-align: center;
 }
 
+.roundbutton{
+    margin-top: 100px;
+    /* padding: 50px; */
+    margin: auto;
+    width: 500px;
+}
+
+.bluebutton{
+    background-color: #2994FF;
+    border-radius: 65px;
+    width: 500px;
+    
+    
+}
+.blue{
+    color: white; 
+}
+
+.P1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.P2{
+    font-size: 15px;
+}

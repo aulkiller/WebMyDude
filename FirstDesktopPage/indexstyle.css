@@ -38,8 +38,12 @@ a.btn {
     margin: .5em 0;
 }
 
-/* HEADER SECTION */
+/* TOP SECTION */
 
+.nav-container{
+    float: left;
+    width: 100%;
+}
 /*Headernya pake id*/
 #index {
     background-image: url("../assets/images/bg.svg") ;
@@ -58,7 +62,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.205);
     /* padding: 25px; */
     background-image: url("../assets/images/navbar.svg"); 
-    position: fixed;
+
 }
 
 nav ul {

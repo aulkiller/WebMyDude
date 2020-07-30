@@ -38,8 +38,12 @@ a.btn {
     margin: .5em 0;
 }
 
-/* HEADER SECTION */
+/* TOP SECTION */
 
+.nav-container{
+    float: left;
+    width: 100%;
+}
 /*Headernya pake id*/
 #index {
     background-image: url("../assets/images/bg.svg") ;
@@ -52,9 +56,12 @@ a.btn {
 nav {
     display: flex;
     /* text-align: right; */
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     /* padding: 25px; */
+    background-image: url("../assets/images/navbar.svg"); 
+
 }
 
 nav ul {

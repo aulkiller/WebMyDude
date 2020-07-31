@@ -48,7 +48,7 @@ header {
     
     
 }
-.blue{
+.white{
     color: white; 
 }
 
@@ -61,6 +61,10 @@ header {
     font-size: 15px;
 }
 
+.blue{
+    color: #0968AC;
+}
+
 /* MAIN AREA */
 
 .threefocustext{
@@ -68,4 +72,22 @@ header {
     margin: auto;
     width: 90%;
     font-size: 1.5em;
+}
+
+.kreativPage{
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-areas: 
+    "a a a b b b c c c"
+    "a a a b b b c c c"
+    "a a a b b b c c c"
+    "d d d d . e e e e"
+    "d d d d . e e e e";
+}
+
+#section-d{
+    grid-area: d;
+}
+
+#section-e{
+    grid-area: e;
 }

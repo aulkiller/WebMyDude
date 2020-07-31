@@ -205,13 +205,14 @@ footer li {
       display: grid;
       margin-top: 70px;
       margin-bottom: 150px;
-      grid-template-columns: repeat(8, 1fr);
+      
       grid-gap: 10px;
       grid-auto-rows: 100px;
       
     }
 
     .homepage{
+        grid-template-columns: repeat(8, 1fr);
         grid-template-areas: 
         "a a a a b b b b"
         "a a a a b b b b"

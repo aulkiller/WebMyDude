@@ -75,19 +75,33 @@ header {
 }
 
 .kreativPage{
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(9, 120px);
+    grid-gap: 5px;
+    grid-auto-rows: 96px;
+}
+
+.ThreePillar{
     grid-template-areas: 
     "a a a b b b c c c"
     "a a a b b b c c c"
     "a a a b b b c c c"
-    "d d d d . e e e e"
-    "d d d d . e e e e";
+    ". . . . . . . . ."
+    ". d d d d e e e e"
+    ". d d d d e e e e";
 }
-
 #section-d{
     grid-area: d;
 }
 
 #section-e{
     grid-area: e;
+}
+
+
+.OurTalents{
+    margin-bottom: 30px;
+    grid-template-areas: 
+    "a a a b b b c c c"
+    "a a a b b b c c c"
+    "a a a b b b c c c";
 }

@@ -38,6 +38,14 @@ a.btn {
     margin: .5em 0;
 }
 
+.middle {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.bigger{
+    font-size: 2em;
+}
 /* TOP SECTION */
 
 .nav-container{
@@ -104,10 +112,6 @@ nav a:hover {
     margin: 5px;
 }
 
-.middle {
-    padding-top: 100px;
-    text-align: center;
-}
 
 .middletext{
     color: white;
@@ -205,13 +209,14 @@ footer li {
       display: grid;
       margin-top: 70px;
       margin-bottom: 150px;
+      justify-content: center;
       
-      grid-gap: 10px;
-      grid-auto-rows: 100px;
       
     }
 
     .homepage{
+        grid-gap: 10px;
+        grid-auto-rows: 100px;
         grid-template-columns: repeat(8, 1fr);
         grid-template-areas: 
         "a a a a b b b b"

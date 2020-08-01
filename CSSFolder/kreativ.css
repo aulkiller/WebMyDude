@@ -12,8 +12,7 @@
 .roundbutton{
     display: block;
     margin: 0px auto;
-    width: 400px;
-    padding-top: 80px;
+    width: 300px;
 }
 
 .bluebutton{
@@ -92,4 +91,10 @@
     "a a a b b b c c c"
     "a a a b b b c c c"
     "a a a b b b c c c";
+}
+
+.beforeWatchUs{
+    margin-bottom: 30px;
+    grid-template-areas: 
+    "a a a a a a b b b";
 }

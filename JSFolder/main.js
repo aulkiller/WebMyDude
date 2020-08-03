@@ -14,12 +14,13 @@ const navSlide = () => {
             if(items.style.animation){
                 items.style.animation = '';
             } else {
-                items.style.animation = `navitemsFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                items.style.animation = `navitemsFade 0.5s ease forwards ${index / 7 + 0.3}s`;
             }
         });
     });
 
-
 }
 
 navSlide();
+
+

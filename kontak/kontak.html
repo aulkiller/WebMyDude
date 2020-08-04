@@ -17,7 +17,7 @@
         <nav>
             <ul class="nav-items">
                 <li>
-                    <a href="../FirstDesktopPage/index.html">Home</a>
+                    <a href="../index.html">Home</a>
                 </li>
                 <li>
                     <a href="../KreativMorePage/kreativ.html">Kreativ</a>
@@ -29,7 +29,7 @@
                     <a href="../Undercon/404.html">Karir</a>
                 </li>
                 <li>
-                    <a class="btn" href="../Undercon/404.html">Reach Us</a>
+                    <a class="btn" href="../kontak/kontak.html">Reach Us</a>
                 </li>
             </ul>
             <div class="menu-btn">
@@ -49,80 +49,80 @@
 
     <!-- Main Area -->
     <!-- <main class="grid kontak"> -->
-        <form action="POST" data-netlify="true">
-            <!-- Section B -->
-            <section id="section-b">
-                <div class="content-wrap">
-                    <label>Name</label>
-                    <input type="text" placeholder="Name" id="name">
-                </div>
-            </section>
-
-            <!-- Section C -->
-            <section id="section-c">
-                <div class="content-wrap">
-                    <label>Perusahaan/Organisasi (jika tidak ada, tulis “tidak ada”)</label>
-                    <input type="text" placeholder="Company" id="company">
-                </div>
-            </section>
-
-            <!-- Section D -->
-            <section id="section-d">
-                <div class="content-wrap">
-                    <label>No. Handphone</label>
-                    <input type="tel" placeholder="No. Handphone" id="phone">
-                </div>
-            </section>
-
-            <!-- Section E -->
-            <section id="section-e">
-                <div class="content-wrap">
-                    <label>Email</label>
-                    <input type="email" placeholder="Email" id="email">
-                </div>
-            </section>
-
-            <!-- Section F -->
-            <section id="section-f">
-                <div class="content-wrap">
-                    <label>Waktu dan Tanggal (JM:MNT , dd/mm/year)</label>
-                    <input type="time" placeholder="Time" id="time">
-                    <input type="date" placeholder="Date" id="date">
-                </div>
-            </section>
-
-            <!-- Section G -->
-            <section id="section-g">
-                <div class="content-wrap">
-                    <label>Deskripsi (apa yang membuat anda berbeda dari applicant lain?)</label>
-                    <input type="text" placeholder="Description" id="desc" autocomplete="off">
-                </div>
-            </section>
-        </form>
-
-        <!-- Section H -->
-        <section id="section-h">
+    <form action="POST" data-netlify="true">
+        <!-- Section B -->
+        <section id="section-b">
             <div class="content-wrap">
-                <!-- gada tombol submit cuk? -->
-                <button type="submit">Submit</button>
+                <label>Name</label>
+                <input type="text" placeholder="Name" id="name">
             </div>
         </section>
 
-        <!-- Section I -->
-        <section id="section-i">
+        <!-- Section C -->
+        <section id="section-c">
             <div class="content-wrap">
-                <h1>Butuh Bantuan? Kontak Kami Langsung</h1>
-                <div class="set1">
-
-                </div>
-                <div class="set2">
-
-                </div>
-                <div class="set3">
-
-                </div>
+                <label>Perusahaan/Organisasi (jika tidak ada, tulis “tidak ada”)</label>
+                <input type="text" placeholder="Company" id="company">
             </div>
         </section>
+
+        <!-- Section D -->
+        <section id="section-d">
+            <div class="content-wrap">
+                <label>No. Handphone</label>
+                <input type="tel" placeholder="No. Handphone" id="phone">
+            </div>
+        </section>
+
+        <!-- Section E -->
+        <section id="section-e">
+            <div class="content-wrap">
+                <label>Email</label>
+                <input type="email" placeholder="Email" id="email">
+            </div>
+        </section>
+
+        <!-- Section F -->
+        <section id="section-f">
+            <div class="content-wrap">
+                <label>Waktu dan Tanggal (JM:MNT , dd/mm/year)</label>
+                <input type="time" placeholder="Time" id="time">
+                <input type="date" placeholder="Date" id="date">
+            </div>
+        </section>
+
+        <!-- Section G -->
+        <section id="section-g">
+            <div class="content-wrap">
+                <label>Deskripsi (apa yang membuat anda berbeda dari applicant lain?)</label>
+                <input type="text" placeholder="Description" id="desc" autocomplete="off">
+            </div>
+        </section>
+    </form>
+
+    <!-- Section H -->
+    <section id="section-h">
+        <div class="content-wrap">
+            <!-- gada tombol submit cuk? -->
+            <button type="submit">Submit</button>
+        </div>
+    </section>
+
+    <!-- Section I -->
+    <section id="section-i">
+        <div class="content-wrap">
+            <h1>Butuh Bantuan? Kontak Kami Langsung</h1>
+            <div class="set1">
+
+            </div>
+            <div class="set2">
+
+            </div>
+            <div class="set3">
+
+            </div>
+        </div>
+    </section>
 
 
     <!-- </main> -->
@@ -161,67 +161,67 @@
     <script src="../JSFolder/main.js"></script>
     <script type="text/javascript">
         function validateName() {
-                var name = document.getElementById('name').value;
-                if(name.length == 0) {
-                  alert("Name can't be blank") ;
-                  return false;
-    
-                }
-                if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-                  alert("Please enter your correct name") ;//Validation Message
-                  return false;
-                }
-                return true;
-              }
-    
-              function validatePhone() {
-                var phone = document.getElementById('phone').value;
-                if(phone.length == 0) {
-                  alert("Phone number can't be blank") ;//Validation Message
-                  return false;
-                }
-    
-                if(!phone.match(/^[0]?[789]\d{9}$/)) {
-                 alert("Please enter a correct phone number") ;//Validation Message
-                 return false;
-               }
-    
-               return true;
-    
-             }
-    
-             function validateEmail () {
-    
-              var email = document.getElementById('email').value;
-              if(email.length == 0) {
-                alert("Email can't be blank") ;//Validation Message
+            var name = document.getElementById('name').value;
+            if (name.length == 0) {
+                alert("Name can't be blank");
                 return false;
-    
-              }
-    
-              if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-                alert("Please enter a correct email address") ;//Validation Message
-                return false;
-    
-              }
-    
-              return true;
-    
+
             }
-    
-    
-            function validateForm() {
-              if (!validateName() || !validatePhone() || !validateEmail()) {
-    
+            if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                alert("Please enter your correct name");//Validation Message
+                return false;
+            }
+            return true;
+        }
+
+        function validatePhone() {
+            var phone = document.getElementById('phone').value;
+            if (phone.length == 0) {
+                alert("Phone number can't be blank");//Validation Message
+                return false;
+            }
+
+            if (!phone.match(/^[0]?[789]\d{9}$/)) {
+                alert("Please enter a correct phone number");//Validation Message
+                return false;
+            }
+
+            return true;
+
+        }
+
+        function validateEmail() {
+
+            var email = document.getElementById('email').value;
+            if (email.length == 0) {
+                alert("Email can't be blank");//Validation Message
+                return false;
+
+            }
+
+            if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+                alert("Please enter a correct email address");//Validation Message
+                return false;
+
+            }
+
+            return true;
+
+        }
+
+
+        function validateForm() {
+            if (!validateName() || !validatePhone() || !validateEmail()) {
+
                 alert("Form not submitted");//Validation Message
                 return false;
-              }
-              else {
-                submitted=true;
-                return true;
-              }
             }
-            </script>
+            else {
+                submitted = true;
+                return true;
+            }
+        }
+    </script>
 </body>
 
 </html>

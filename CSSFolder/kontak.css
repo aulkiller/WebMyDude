@@ -10,25 +10,41 @@ h1,h5 {
 #section-a {
     text-align: left;
     padding-top: 1em;
+    padding-right: 10em;
     padding-bottom: 0.5em;
 }
 
-.content-wrapo {
-    padding: 0 10em 0 1.5em;
+
+.content-wrap {
+    width: 100%;
 }
 
-#section-b,#section-c,#section-d,#section-e,#section-f,#section-g {
+#section-b,#section-d,#section-e,#section-f {
+    width: 100%;
     font-family: 'Open Sans';
     font-style: normal;
     display: flex;
-    /* padding: 1em 2em; */
-    padding: 1.5em 6.5em 1.5em 2em;
+    padding: 1.5em 2em;
+    /* padding: 2em 0em 2em 2em; */
+    background-color: white;
+    text-align: left;
+}
+
+#section-c,#section-g{
+    width: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    display: flex;
+    padding: 1.5em 2em;
+    /* margin-bottom: 20px; */
+    /* padding: 1em 0em 2em 2em; */
     background-color: white;
     text-align: left;
 }
 
 label {
     font-weight: bold;
+    width: 100%;
 }
 
 input {
@@ -40,33 +56,33 @@ input {
 }
 
 #name { 
-    width: 160%;
+    width: 90%;
     height: 100%;
 }
 
 #company {
-    width: 97%;
-    height: 70%;
+    width: 90%;
+    height: 100%;
 }
 
 #nohp {
-    width: 123%;
+    width: 90%;
     height: 100%;
 }
 
 #mail {
-    width: 165%;
+    width: 90%;
     height: 100%;
 }
 
 #time {
-    width: 39%;
+    width: 30%;
     height: 100%;
 }
 
 #date {
     margin-left: 10px;
-    width: 55%;
+    width: 57%;
     height: 100%;
 }
 
@@ -107,8 +123,8 @@ input[type="date"]::-webkit-clear-button {
 }
 
 #desc {
-    width: 100%;
-    height: 150%;
+    width: 90%;
+    height: 100%;
 }
 
 #section-h {
@@ -116,8 +132,8 @@ input[type="date"]::-webkit-clear-button {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
-    margin-top: 15%;
-    padding: 1.5em 6.5em 1.5em 2em;
+    padding: 2em;
+    margin-top: 2em;
     text-align: left;
 }
 
@@ -126,44 +142,18 @@ input[type="date"]::-webkit-clear-button {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
-    padding: 1.5em 3em 1.5em 2em;
+    padding: 2em;
+    padding-right: 10em;
 }
 
 .set1, .set2, .set3 {
     display: flex;
 }
 
-
 @media (min-width: 701px) {
 
     .menu-btn{
         display: none;
-    }
-
-    .grid {
-      display: grid;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      justify-content: center;
-      
-      
-    }
-
-    .homepage{
-        grid-gap: 10px;
-        grid-auto-rows: 180px;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-areas: 
-        "a a a a b b b b"
-        "a a a a b b b b"
-        "a a a a b b b b"
-        "c c c c c c c c"
-        "c c c c c c c c"
-        "c c c c c c c c";
-    }
-
-    #section-a{
-        grid-area: a;
     }
 
     #section-b{
@@ -173,6 +163,40 @@ input[type="date"]::-webkit-clear-button {
     #section-c{
         grid-area: c;
     }
+
+    #section-d{
+        grid-area: d;
+    }
+
+    #section-e{
+        grid-area: e;
+    }
+
+    #section-f{
+        grid-area: f;
+    }
+
+    #section-g{
+        grid-area: g;
+    }
+
+    form {
+        width: 100%;
+        display: grid;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        justify-content: center;
+        grid-gap: 10px;
+        grid-auto-rows: 100px;
+        grid-column: auto;
+        grid-template-areas: 
+        "b b f f"
+        "c c g g"
+        "d d g g"
+        "e e . ."
+    }
+
+
 }
 
 

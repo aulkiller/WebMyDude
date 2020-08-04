@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alfva Co. | Kontak</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" -->
+        <!-- integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="../CSSFolder/indexstyle.css">
     <link rel="stylesheet" href="../CSSFolder/kontak.css">
 </head>
@@ -96,7 +96,6 @@
             <div class="content-wrap">
                 <label>Deskripsi (apa yang membuat anda berbeda dari applicant lain?)</label>
                 <textarea name="message" id="desc"></textarea></label>
-                <!-- <input type="text" placeholder="Description" id="desc" autocomplete="off"> -->
             </div>
         </section>
 
@@ -104,7 +103,7 @@
         <section id="section-h">
             <div class="content-wrap">
                 <!-- gada tombol submit cuk? -->
-                <button type="submit" id="sbmt">Submit</button>
+                <button type="submit" id="sbmt" onclick="validateForm();">Submit</button>
             </div>
         </section>
     </form>
@@ -161,69 +160,6 @@
             2020 alfva. Hak Cipta Dilindungi oleh undang-undang</p>
     </footer>
     <script src="../JSFolder/main.js"></script>
-    <script type="text/javascript">
-        function validateName() {
-            var name = document.getElementById('name').value;
-            if (name.length == 0) {
-                alert("Name can't be blank");
-                return false;
-
-            }
-            if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-                alert("Please enter your correct name");//Validation Message
-                return false;
-            }
-            return true;
-        }
-
-        function validatePhone() {
-            var phone = document.getElementById('phone').value;
-            if (phone.length == 0) {
-                alert("Phone number can't be blank");//Validation Message
-                return false;
-            }
-
-            if (!phone.match(/^[0]?[789]\d{9}$/)) {
-                alert("Please enter a correct phone number");//Validation Message
-                return false;
-            }
-
-            return true;
-
-        }
-
-        function validateEmail() {
-
-            var email = document.getElementById('email').value;
-            if (email.length == 0) {
-                alert("Email can't be blank");//Validation Message
-                return false;
-
-            }
-
-            if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-                alert("Please enter a correct email address");//Validation Message
-                return false;
-
-            }
-
-            return true;
-
-        }
-
-
-        function validateForm() {
-            if (!validateName() || !validatePhone() || !validateEmail()) {
-
-                alert("Form not submitted");//Validation Message
-                return false;
-            }
-            else {
-                submitted = true;
-                return true;
-            }
-        }
-    </script>
 </body>
 
 </html>

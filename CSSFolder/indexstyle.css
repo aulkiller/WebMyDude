@@ -271,9 +271,9 @@ footer li {
 
 /*Menu Buton*/
 @media (max-width: 700px){
-    body {
-        /* overflow-x: hidden; */
-    }
+    /* body {
+        overflow-x: hidden;
+    } */
 
     .nav-items {
         position: absolute;

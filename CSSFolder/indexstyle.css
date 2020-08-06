@@ -176,12 +176,16 @@ header {
     text-align: center;
 }
 
+
+.bg{
+    background: #E5E5E5;
+}
+
 .content-wrap{
     padding: 0 1.5em;
 }
 
 #section-b{
-    background: red;
     color: #000000;
     padding: 2em;
     text-align: center;

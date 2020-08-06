@@ -28,7 +28,7 @@ function validateName() {
         return false;
 
     }
-    if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+    if (!name.match(/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/)) {
         alert("Masukkann Nama yang Valid");//Validation Message
         return false;
     }
@@ -42,7 +42,7 @@ function validatePhone() {
         return false;
     }
 
-    if (!phone.match(/^[0]?[789]\d{9}$/)) {
+    if (!phone.match(/^[\d ()+-]+$/)) {
         alert("PMasukkan Nomor Handphone yang valid");//Validation Message
         return false;
     }

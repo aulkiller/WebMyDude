@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/* @import url(../assets/fonts); */
 
 *{
     box-sizing: border-box;
@@ -16,6 +17,22 @@ h1 {
     font-style: normal;
     font-weight: bold; 
     margin: 0;
+}
+
+h2 {
+    font-family: 'Roboto';
+
+}
+
+.links{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: #0094FF;
+}
+
+.links:hover{
+    transition: all 0.3s ease;
+    opacity: 0.7;   
 }
 
 p {
@@ -38,56 +55,77 @@ a.btn {
     margin: .5em 0;
 }
 
-/* HEADER SECTION */
-
-header{
-    background-image: url("../assets/images/bg.svg") ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 140px;
-}
-
-nav {
-    display: flex;
-    /* text-align: right; */
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.205);
-    /* padding: 25px; */
-}
-
-nav ul {
-    display: flex;
-    /* margin-right: 70px; */
-}
-
-nav li {
-    display: inline-block;
+.middle {
+    padding-top: 50px;
     text-align: center;
-    padding-right: 50px;
-    clear: both;
 }
 
-nav a {
-    font-family: 'Open Sans', sans-serif;
-    color: #FFFFFF;
+.bigger{
+    font-size: 2em;
+}
+/* TOP SECTION */
+/*Headernya pake id*/
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 15%;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+}
+
+ .alfalogo{
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    max-width: 50px;
+    margin-right: auto;
+    padding-top: 5px;
+ }
+
+ .alfalogo:hover {
+    transition: all 0.3s ease;
+    opacity: 0.7;
+ }
+
+ .nav-items{
+     list-style: none;
+ }
+ 
+ .nav-items li{
+     display: inline-block;
+     padding:  0px 20px;
+ }
+
+ .nav-items a{
+    font-family: 'Open Sans';
+    color: #6A6A6A;
     text-decoration: none;
-    font-weight: 400;
-}
+ }
 
-nav a:hover {
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-    transition: 0.3s;
-}
+ .nav-items a:hover{
+    transition: all 0.3s ease;
+    opacity: 0.7;
+ }
 
+ .nav-items .btn{
+    color: #ffffff; 
+    margin-left: 20px;
+    padding: 10px 25px;
+    background-color: #0094FF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+
+/* menubutton */
 .menu-btn{
+    position: relative;
+    z-index: 2;
     padding-right: 8%;
     padding-bottom: 2%;
 }
-
 
 .menu-btn div{
     width: 25px;
@@ -96,19 +134,23 @@ nav a:hover {
     margin: 5px;
 }
 
+.menu-btn:hover {
+    transition: all 0.3s ease;
+    opacity: 0.7;
+}
+
 .middle {
+    background-image: url(../assets/images/bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 100px;
     text-align: center;
+    padding-bottom: 200px;
 }
 
 .middletext{
     color: white;
-}
-
-.alfalogo{
-    padding: 10px;
-    /* margin-left: 30px; */
-    width: 60px;
 }
 
 .nav-items{
@@ -126,9 +168,9 @@ nav a:hover {
     width: 100%;
     height: auto;
 }
-
+/* warna buat layouting ntar dihapus */
 #section-a{
-    background: #FFFFFF;
+    background-image: url();
     color: #000000;
     padding: 2em;
     text-align: center;
@@ -139,14 +181,13 @@ nav a:hover {
 }
 
 #section-b{
-    background: #FFFFFF;
+    background: red;
     color: #000000;
     padding: 2em;
     text-align: center;
 }
 
 #section-c{
-    background: #FFFFFF;
     color: #000000;
     padding: 2em;
     text-align: center;
@@ -187,7 +228,7 @@ footer li {
 
 /* Media Queries */
 
-@media (min-width: 700px) {
+@media (min-width: 701px) {
 
     .menu-btn{
         display: none;
@@ -195,15 +236,20 @@ footer li {
 
     .grid {
       display: grid;
-      margin-top: 70px;
-      margin-bottom: 150px;
-      grid-template-columns: repeat(8, 1fr);
-      grid-gap: 10px;
-      grid-auto-rows: 100px;
-      grid-template-areas: 
+      margin-top: 10px;
+      margin-bottom: 10px;
+      justify-content: center;
+    }
+
+    .homepage{
+        grid-gap: 10px;
+        grid-auto-rows: 180px;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-areas: 
         "a a a a b b b b"
         "a a a a b b b b"
         "a a a a b b b b"
+        "c c c c c c c c"
         "c c c c c c c c"
         "c c c c c c c c";
     }
@@ -223,42 +269,73 @@ footer li {
 
 /*Menu Buton*/
 @media (max-width: 700px){
-    body {
+    /* body {
         overflow-x: hidden;
-    }
+    } */
 
     .nav-items {
         position: absolute;
-        height: 520px;
-        right: 0px;
-        top: 72px;
-        background-color: rgba(0, 0, 0, 0.205);
+        height: 60%;
+        top: 0px;
+        left: 0px;
+        /* right: 0px; */
+        background-color: white;
         backdrop-filter: blur(5px);
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        width: 35%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+        width: 100%;
+        /* transform: translateX(100%); */
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in;
+        /* fix gap menubar */
+        z-index: 1;
+        padding: 10% 0 0% 0;
+        margin: 0;
     }
+
+    /* fix gap menubar */
+    .nav-items .btn{
+        margin: 0;
+    }
+
+    .nav-items a{
+        color: black;
+    }
+    
 
     .nav-items li {
         opacity: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-items li:hover {
+       opacity: 0.7;
+    }
+
+    .nav-items li:nth-last-child(1) {
+        margin-top: -10px;
     }
 
     .nav-active {
-        transform: translateX(0%);
+        /* transform: translateY(25%); */
+        transform: translateY(0%);
+        box-shadow: 0 0 0 1000vmax rgba(0,0,0,.3);
+        /* opacity: 1;
+        transition: transform 0.3s ease-in; */
     }
+    
 
     @keyframes navitemsFade {
         from{
             opacity: 0;
-            transform: translateX(50px);
+            transform: translateY(5px);
         }
         to{
             opacity: 1;
-            transform: translateX(0px);
+            transform: translateY(0px);
         }
     }
 }

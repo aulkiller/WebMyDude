@@ -136,10 +136,11 @@ input[type="date"]::-webkit-clear-button {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
-    padding: 2em 0;
+    padding: 2em 2em;
     margin-top: 2em;
     text-align: center;
     align-items: center;
+
 }
 
 #section-i {
@@ -152,7 +153,9 @@ input[type="date"]::-webkit-clear-button {
 }
 
 #sbmt {
-    position: relative;
+    display: block;
+    width: 200px;
+    height: 40px;
     color: white;
     background-color: rgb(37, 37, 37);
     border: 5px solid rgb(37, 37, 37);
@@ -162,6 +165,7 @@ input[type="date"]::-webkit-clear-button {
 
 .set1, .set2, .set3 {
     display: flex;
+    padding: 10px 5%;
 }
 
 @media (min-width: 701px) {

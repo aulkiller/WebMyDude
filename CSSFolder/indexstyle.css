@@ -123,8 +123,7 @@ header {
 .menu-btn{
     position: relative;
     z-index: 2;
-    padding-right: 8%;
-    padding-bottom: 2%;
+    padding: 0px 10%;
 }
 
 .menu-btn div{

@@ -50,7 +50,7 @@ label {
 input {
     position: relative;
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 5px solid #000000;
     box-sizing: border-box;
     border-radius: 19px;
 }

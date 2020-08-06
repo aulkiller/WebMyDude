@@ -47,9 +47,13 @@
         </div>
     </section>
 
+    <!-- testhandler -->
+    <script type="text/javascript">var submitted=false;</script>
+
     <!-- Main Area -->
     <!-- <main class="grid kontak"> -->
-    <form action="POST" data-netlify="true">
+    <!-- <form action="POST" data-netlify="true"> -->
+    <form id="gform" method="POST" action="https://script.google.com/a/alfvaco.com/macros/s/AKfycbxTrcDZqlVUeLyIctDGt2z6EnVwPRtbuHiYFxCK/exec">
         <!-- Section B -->
         <section id="section-b">
             <div class="content-wrap">
@@ -95,7 +99,7 @@
         <section id="section-g">
             <div class="content-wrap">
                 <label>Deskripsi (apa yang membuat anda berbeda dari applicant lain?)</label>
-                <textarea name="message" id="desc"></textarea></label>
+                <textarea name="message" placeholder="Description about yourself" id="desc"></textarea></label>
             </div>
         </section>
 
@@ -103,7 +107,7 @@
         <section id="section-h">
             <div class="content-wrap">
                 <!-- gada tombol submit cuk? -->
-                <button type="submit" id="sbmt" onclick="validateForm();">Submit</button>
+                <button type="submit" id="sbmt" onclick="return validateForm();">Submit</button>
             </div>
         </section>
     </form>

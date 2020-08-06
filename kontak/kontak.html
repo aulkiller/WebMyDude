@@ -163,7 +163,29 @@
         <p class="copyright"> <img id="icon_copyright" src="../assets/images/logowhite.png" alt="Icon Kreativ"> &#169;
             2020 alfva. Hak Cipta Dilindungi oleh undang-undang</p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../JSFolder/main.js"></script>
+
+    <!-- disini bagian after submit masalahnya butuh jquery-->
+    <script>
+        $("#gform").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/a/alfvaco.com/macros/s/AKfycbxTrcDZqlVUeLyIctDGt2z6EnVwPRtbuHiYFxCK/exec",
+                data:$("#gform").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
 </body>
 
 </html>

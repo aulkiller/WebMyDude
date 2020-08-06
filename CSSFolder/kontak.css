@@ -222,6 +222,24 @@ input[type="date"]::-webkit-clear-button {
     #section-c {
         margin-bottom: 20px;
     }
+
+    #section-f {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    #section-c {
+        margin-bottom: 40px;
+    }
+
+    #section-f {
+        margin-bottom: 40px;
+    }
+
+    #section-g {
+        margin-bottom: 80px;
+    }
 }
 
 

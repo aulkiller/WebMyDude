@@ -49,7 +49,11 @@
 }
 
 .bg1{
-    background-image: linear-gradient(#2994FF, #30CDFF, #00F0FF);
+    background-image: url(../assets/images/KreativPartOne.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 200px;
 }
 
 /* MAIN AREA */
@@ -91,6 +95,13 @@
     "a a a b b b c c c"
     "a a a b b b c c c"
     "a a a b b b c c c";
+}
+
+.bg2{
+    background-image: url(../assets/images/KreativOurTalent.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .beforeWatchUs{

@@ -14,7 +14,6 @@ h1,h5 {
     padding-bottom: 0.5em;
 }
 
-
 .content-wrap {
     width: 100%;
 }
@@ -50,7 +49,7 @@ label {
 input {
     position: relative;
     background: #FFFFFF;
-    border: 5px solid #000000;
+    border: 3px solid #000000;
     box-sizing: border-box;
     border-radius: 19px;
 }
@@ -127,7 +126,7 @@ input[type="date"]::-webkit-clear-button {
     height: 100%;
     position: relative;
     background: #FFFFFF;
-    border: 5px solid #000000;
+    border: 3px solid #000000;
     box-sizing: border-box;
     border-radius: 19px;
 }
@@ -163,9 +162,17 @@ input[type="date"]::-webkit-clear-button {
     border-radius: 19px;
 }
 
-.set1, .set2, .set3 {
-    display: flex;
-    padding: 10px 5%;
+.set{
+    display: block;
+    padding: 10px;
+    list-style: none;
+    margin: auto;
+    
+    
+}
+
+.set li{
+    padding: 10px;
 }
 
 @media (min-width: 701px) {

@@ -196,6 +196,9 @@ header {
     text-align: center;
 }
 
+.backgroundHomePage{
+    background-color: #E5E5E5;
+}
 /* FOOTER SECTION */
 footer {
     padding-top: 80px;

@@ -5,6 +5,9 @@ h1,h5 {
     margin-bottom: 10px;
 }
 
+body{
+    width: 100%;
+}
 /*Main-section*/
 
 #section-a {

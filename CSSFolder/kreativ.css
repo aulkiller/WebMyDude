@@ -45,7 +45,12 @@
 }
 
 .blue{
-    color: #0968AC;
+    color: #421977;
+    font-size: 50px;
+}
+
+.bluer{
+    color: #421977;
 }
 
 .bg1{
@@ -53,7 +58,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0px 200px;
+    padding: 100px 0px 160px;
 }
 
 /* MAIN AREA */
@@ -62,13 +67,19 @@
     text-align: left;
     margin: auto;
     width: 90%;
-    font-size: 1.5em;
+    font-size: 17px;
+    padding: 50px 0%;
+}
+
+.bigger{
+    font-weight: bold;
 }
 
 .kreativPage{
     grid-template-columns: repeat(9, 120px);
     grid-gap: 5px;
     grid-auto-rows: 96px;
+    margin-bottom: 200px;
 }
 
 .ThreePillar{

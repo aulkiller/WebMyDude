@@ -131,7 +131,7 @@ body{
     }
 
     .kreativPage{
-        grid-template-columns: repeat(9, 11%);
+        grid-template-columns: repeat(9, 10%);
     }
     
     .OurTalents{

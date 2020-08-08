@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .middler {
     padding-top: 100px;
     text-align: center;
@@ -119,4 +123,30 @@
     margin-bottom: 30px;
     grid-template-areas: 
     "a a a a a a b b b";
+}
+
+@media (max-width: 1140px){
+    main img{
+        width: 100%;
+    }
+
+    .kreativPage{
+        grid-template-columns: repeat(9, 11%);
+    }
+    
+    .OurTalents{
+        grid-template-columns: repeat(9, 11%);
+    }
+
+    .beforeWatchUs{
+        grid-template-areas: 
+        "a a a a a b b b b b";
+        grid-template-columns: repeat(10, 9%);
+    }
+}
+
+@media (min-width: 700px) and (max-width:837px){
+    .ThreePillar{
+        margin-bottom: 300px;
+    }
 }

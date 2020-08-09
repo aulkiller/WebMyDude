@@ -26,7 +26,7 @@ body{
 	border-radius: 25px;
 	outline: none;
     border: none;
-	background-image: linear-gradient(to right, #2994FF, #30CDFF, #00F0FF);
+	background-image: linear-gradient(to right, #CD2DD0,#A64ED7,#8867DD,#5F83D2,#34A3C6);
 	background-size: 200%;
 	cursor: pointer;
 	transition: .3s;
@@ -49,12 +49,13 @@ body{
 }
 
 .blue{
-    color: #421977;
+    color: #A00BA0;
+    font-size: 50px;
     font-size: 50px;
 }
 
 .bluer{
-    color: #421977;
+    color: #1B1464;
 }
 
 .bg1{
@@ -62,7 +63,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0px 160px;
 }
 
 /* MAIN AREA */
@@ -101,12 +101,10 @@ body{
     padding-right: 0;
 }
 #section-d{
-    margin-top: 12%;
     grid-area: d;
 }
 
 #section-e{
-    margin-top: 12%;
     grid-area: e;
 }
 
@@ -150,6 +148,14 @@ main ul{
 #section-a{
     color: white;
 }
+
+
+.Video{
+    background-color: #390C70;
+    width: 90%;
+    margin: 0 auto;
+}
+
 
 @media (max-width: 1140px){
     .kreativPage{

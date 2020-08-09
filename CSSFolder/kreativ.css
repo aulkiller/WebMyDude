@@ -19,6 +19,10 @@ body{
     width: 300px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .bluebutton{
     display: block;
 	width: 100%;
@@ -63,6 +67,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 200px;
 }
 
 /* MAIN AREA */
@@ -123,7 +128,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 3%;
-    padding-top: 3%;
 }
 
 .beforeWatchUs{

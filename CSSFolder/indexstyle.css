@@ -229,14 +229,13 @@ footer li {
 }
 
 .copyright{
-    padding: 30px;
     text-align: center;
     font-size: 18px;
 }
 
 
 .region{
-    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #icon_copyright{

@@ -83,7 +83,7 @@ body{
     grid-template-columns: repeat(9, 120px);
     grid-gap: 5px;
     /* grid-auto-rows: 96px; */
-    margin-bottom: 200px;
+    margin-bottom: 10%;
 }
 
 .ThreePillar{
@@ -92,8 +92,13 @@ body{
     "a a a b b b c c c"
     "a a a b b b c c c"
     ". . . . . . . . ."
-    ". d d d d e e e e"
-    ". d d d d e e e e";
+    "d d d d d e e e e"
+    "d d d d d e e e e";
+}
+
+.ThreePillar #section-a,.ThreePillar #section-b,.ThreePillar #section-c{
+    padding-left: 0;
+    padding-right: 0;
 }
 #section-d{
     margin-top: 12%;
@@ -119,16 +124,27 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 .beforeWatchUs{
     margin-bottom: 30px;
     grid-template-areas: 
-    "a a a a a a b b b";
+    "a a a a a b b b b";
 }
 
 main img{
+    width: 75%;
+}
+
+.aset{
     width: 70%;
+}
+
+main ul{
+    margin: 0;
+    padding: 0;
 }
 
 #section-a{
@@ -146,6 +162,7 @@ main img{
 
     .beforeWatchUs{
         grid-template-areas: 
+        "a a a a a b b b b b"
         "a a a a a b b b b b";
         grid-template-columns: repeat(10, 9%);
     }

@@ -7,25 +7,25 @@
 }
 
 body{
-    font-family: "Quicksand";
+    font-family: "Quicksand",sans-serif;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: bold; 
     margin: 0;
 }
 
 h2 {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
 
 }
 
 .links{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: bold;
     color: #0094FF;
 }
@@ -36,14 +36,14 @@ h2 {
 }
 
 p {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-style: normal;
     font-weight: normal;
     margin: 0;
 }
 
 a.btn {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-style: normal;
     font-weight: normal;
     color: #0094FF;
@@ -183,6 +183,7 @@ header {
 
 .content-wrap{
     padding: 0 1.5em;
+    font-size: larger;
 }
 
 #section-b{

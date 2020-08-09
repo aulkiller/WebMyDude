@@ -168,14 +168,6 @@ header {
     width: 100%;
     height: auto;
 }
-/* warna buat layouting ntar dihapus */
-#section-a{
-    background-image: url();
-    color: #000000;
-    padding: 2em;
-    text-align: center;
-}
-
 
 .bg{
     background: #E5E5E5;
@@ -184,6 +176,16 @@ header {
 .content-wrap{
     padding: 0 1.5em;
     font-size: larger;
+}
+
+.content-title{
+    font-size: 50px;
+}
+
+#section-a{
+    color: #000000;
+    padding: 2em;
+    text-align: center;
 }
 
 #section-b{
@@ -198,9 +200,16 @@ header {
     text-align: center;
 }
 
-.backgroundHomePage{
-    background-color: #E5E5E5;
+.backgroundHomePage1{
 }
+
+
+.backgroundHomePage2{
+}
+
+.backgroundHomePage3{
+}
+
 /* FOOTER SECTION */
 footer {
     padding-top: 80px;

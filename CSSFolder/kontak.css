@@ -224,6 +224,34 @@ input[type="date"]::-webkit-clear-button {
 
 }
 
+@media (max-width: 1300px){
+    #company {
+        height: 85%;
+    }
+
+    #section-f {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 780px) and (min-width: 700px) {
+    #section-c{
+        margin-bottom: 20px;
+    }
+
+    #section-d{
+        margin-top: 10px;
+    }
+
+    #section-f {
+        margin-bottom: 20px;
+    }
+
+    #section-g{
+        margin-top: 20px;
+    }
+}
+
 @media (max-width: 571px) {
     #company {
         height: 70%;
@@ -249,7 +277,7 @@ input[type="date"]::-webkit-clear-button {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     #company {
         height: 60%;
     }
@@ -270,7 +298,7 @@ input[type="date"]::-webkit-clear-button {
     }
 }
 
-@media (max-width: 250px) {
+@media (max-width: 280px) {
     #company {
         height: 40%;
     }

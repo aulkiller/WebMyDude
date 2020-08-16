@@ -102,15 +102,16 @@ a{
 }
 
 .ThreePillar #section-a,.ThreePillar #section-b,.ThreePillar #section-c{
-    padding-left: 0;
-    padding-right: 0;
+    padding: 10px 0px;
 }
 #section-d{
     grid-area: d;
+    padding: 20px 0px;
 }
 
 #section-e{
     grid-area: e;
+    padding: 20px 0px;
 }
 
 

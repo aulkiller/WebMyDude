@@ -200,13 +200,11 @@ header {
     text-align: center;
 }
 
-.backgroundHomePage1{
-    background-color: #E5E5E5;
-}
+.backgroundHomePage img{
+    object-fit: fill;
+    width: 100%;
+    height: 230px;
 
-
-.backgroundHomePage2{
-    background-color: #E5E5E5;
 }
 
 .backgroundHomePage3{

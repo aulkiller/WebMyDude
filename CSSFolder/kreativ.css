@@ -8,10 +8,10 @@ body{
     padding-bottom: 100px;
 }
 
-.middlepart1 {
+/* .middlepart1 {
     padding: 10px 80px 0px 80px;
     text-align: center;
-}
+} */
 
 .roundbutton{
     display: block;
@@ -67,9 +67,13 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 200px;
+    display: flex;
+    padding:5%;
 }
 
+.flex-ing{
+    flex-grow: 50%;
+}
 /* MAIN AREA */
 
 .threefocustext{
@@ -93,12 +97,11 @@ a{
 
 .ThreePillar{
     grid-template-areas: 
-    "a a a b b b c c c"
-    "a a a b b b c c c"
-    "a a a b b b c c c"
-    ". . . . . . . . ."
-    "d d d d d e e e e"
-    "d d d d d e e e e";
+    "a a a a . b b b b"
+    "a a a a . b b b b"
+    "a a a a . b b b b"
+    "d d d d . c c c c"
+    "d d d d . c c c c";
 }
 
 .ThreePillar #section-a,.ThreePillar #section-b,.ThreePillar #section-c{

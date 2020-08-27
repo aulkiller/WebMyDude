@@ -31,6 +31,7 @@ a{
 }
 .bluebutton:hover{
     cursor: pointer;
+    opacity: 0.7;
 }
 
 .white{
@@ -60,24 +61,28 @@ a{
     background-size: cover;
 }
 
-#section-a{
-    padding:9% 0%;
+.headergrid #section-a{
+    padding: 0%;
     text-align: left;
-    margin: 5px 10%;
+    margin: 0 10%;
 }
 
-#section-c{
-    padding:1% 0%;
+.headergrid #section-c{
+    padding: 0%;
     text-align: left;
-    margin: 5px 10%;
+    margin: 0 20%;
+}
+
+.headergrid #section-b{
+    padding: 10%;
 }
 .headergrid{
     grid-template-columns: repeat(2,160px);
     grid-template-areas:
     ". . . b b b"
-    ". . . b b b"
     "a a a b b b"
-    "c c c b b b";
+    "c c . b b b"
+    ". . . b b b";
 }
 /* MAIN AREA */
 
@@ -106,6 +111,7 @@ a{
     "d d d d . c c c c"
     "d d d d . c c c c";
 }
+
 
 #section-d{
     grid-area: d;

@@ -67,13 +67,8 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    padding:5%;
 }
 
-.flex-ing{
-    flex-grow: 50%;
-}
 /* MAIN AREA */
 
 .threefocustext{
@@ -190,5 +185,6 @@ main ul{
     .aset{
         width: 50%;
     }
+
 }
 

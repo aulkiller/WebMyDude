@@ -26,17 +26,13 @@ a{
 .bluebutton{
     display: block;
 	width: 100%;
-    height: 50px;
-	border-radius: 25px;
-	outline: none;
-    border: none;
-	background-image: linear-gradient(to right, #CD2DD0,#A64ED7,#8867DD,#5F83D2,#34A3C6);
-	background-size: 200%;
-	cursor: pointer;
+    height: 70px;
+    border: 5px solid #FFFFFF;
+	border-radius: 50px;
 	transition: .3s;
 }
 .bluebutton:hover{
-	background-position:right;
+    cursor: pointer;
 }
 
 .white{
@@ -44,12 +40,12 @@ a{
 }
 
 .P1 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 
 .P2{
-    font-size: 10px;
+    font-size: 11px;
 }
 
 .blue{
@@ -72,7 +68,7 @@ a{
 }
 
 .flex-ing{
-    flex-grow: 50%;
+    flex-grow: 0%;
 }
 /* MAIN AREA */
 

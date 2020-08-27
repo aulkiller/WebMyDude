@@ -8,10 +8,9 @@ body{
     padding-bottom: 100px;
 }
 
-/* .middlepart1 {
-    padding: 10px 80px 0px 80px;
+.middlepart1 {
     text-align: center;
-} */
+}
 
 .roundbutton{
     display: block;
@@ -29,7 +28,7 @@ a{
     height: 70px;
     border: 5px solid #FFFFFF;
 	border-radius: 50px;
-	transition: .3s;
+    transition: .3s;
 }
 .bluebutton:hover{
     cursor: pointer;
@@ -65,13 +64,24 @@ a{
     background-size: cover;
 }
 
-.bg1 #section-a{
-    padding:9% 0% ;
+#section-a{
+    padding:9% 0%;
+    text-align: left;
+    margin: 5px 10%;
+}
+
+#section-c{
+    padding:9% 0%;
+    text-align: left;
+    margin: 5px 10%;
 }
 .headergrid{
-    grid-template-columns: repeat(2,50%);
+    grid-template-columns: repeat(2,120px);
     grid-template-areas:
-    "a b";
+    ". . . b b b"
+    "a a a b b b"
+    "c c c b b b"
+    ". . . b b b";
 }
 /* MAIN AREA */
 
@@ -88,7 +98,7 @@ a{
 }
 
 .kreativPage{
-    grid-template-columns: repeat(9, 120px);
+    grid-template-columns: repeat(9, 160px);
     grid-gap: 5px;
     /* grid-auto-rows: 96px; */
     margin-bottom: 10%;
@@ -100,69 +110,28 @@ a{
     "a a a a . b b b b"
     "a a a a . b b b b"
     "d d d d . c c c c"
-    "d d d d . c c c c";
+    "d d d d . c c c c"
+    ". . . . . c c c c";
 }
 
 .ThreePillar #section-a,.ThreePillar #section-b,.ThreePillar #section-c{
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 #section-d{
     grid-area: d;
     padding: 20px 0px;
-}
-
-#section-e{
-    grid-area: e;
-    padding: 20px 0px;
-}
-
-
-.OurTalents{
-    margin-bottom: 30px;
-    grid-template-areas: 
-    "a a a b b b c c c"
-    "a a a b b b c c c"
-    "a a a b b b c c c";
-}
-
-.bg2{
-    background-image: url(../assets/images/KreativOurTalent.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 3%;
-}
-
-.beforeWatchUs{
-    margin-bottom: 30px;
-    grid-template-areas: 
-    "a a a a a b b b b";
-}
-
-main img{
-    width: 75%;
+    color: #747474;
+    font-size: 21px;
 }
 
 .aset{
-    width: 70%;
+    min-width: 100%;
 }
 
 main ul{
     margin: 0;
     padding: 0;
 }
-
-#section-a{
-    color: white;
-}
-
-
-.Video{
-    background-color: #390C70;
-    width: 1920px 1080px;
-    margin: 0;
-}
-
 
 @media (max-width: 1140px){
     .kreativPage{

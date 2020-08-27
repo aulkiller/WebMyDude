@@ -144,26 +144,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../JSFolder/main.js"></script>
-    <!-- disini bagian after submit masalahnya butuh jquery-->
-    <script>
-        $("#gform").submit((e)=>{
-            e.preventDefault()
-            $.ajax({
-                url:"https://script.google.com/a/alfvaco.com/macros/s/AKfycbxTrcDZqlVUeLyIctDGt2z6EnVwPRtbuHiYFxCK/exec",
-                data:$("#gform").serialize(),
-                method:"post",
-                success:function (response){
-                    alert("Form berhasil dikirim")
-                    window.location.reload()
-                    //window.location.href="https://google.com"
-                },
-                error:function (err){
-                    alert("Ada masalah")
-    
-                }
-            })
-        })
-    </script>
+    <script src="../JSFolder/form.js"></script>
 
 </body>
 

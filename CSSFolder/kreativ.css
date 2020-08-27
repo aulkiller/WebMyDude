@@ -65,6 +65,14 @@ a{
     background-size: cover;
 }
 
+.bg1 #section-a{
+    padding:9% 0% ;
+}
+.headergrid{
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas:
+    "a b";
+}
 /* MAIN AREA */
 
 .threefocustext{
@@ -173,7 +181,7 @@ main ul{
     }
 }
 
-@media (max-width:700px){
+@media (max-width:768px){
     main img{
         width: 30%;
     }
@@ -181,6 +189,16 @@ main ul{
     .aset{
         width: 50%;
     }
+    .headergrid{
+        margin-top: 0;
+        grid-template-columns: repeat(1,100%);
+        grid-template-areas:
+        "b"
+        "a";
+    }
 
+    .bg1 #section-a{
+        padding:0% ; 
+    }
 }
 

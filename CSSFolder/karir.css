@@ -1,3 +1,37 @@
-.karir {
-    
+body {
+    overflow: hidden;
+}
+
+.googleform .btn {
+    color: #ffffff;
+    margin-left: 20px;
+    padding: 10px 25px;
+    background-color: #0094FF;
+    border: none;
+    border-radius: 50px;
+}
+
+.mainkarir {
+    grid-template-columns: repeat(1, 100%);
+    grid-template-areas: "a" "c" "c" "c" "c" "c" "b";
+    grid-column-gap: 500px;
+    grid-auto-columns: auto;
+}
+
+#section-a {
+    grid-area: a;
+}
+
+#section-b {
+    grid-area: b;
+}
+
+#section-c {
+    grid-area: c;
+}
+
+@media (max-width:942) {
+    .mainkarir {
+        grid-template-areas: "a" "b";
+    }
 }

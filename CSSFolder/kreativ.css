@@ -69,8 +69,7 @@ a{
 
 .headergrid #section-c{
     padding: 0%;
-    text-align: left;
-    margin: 0 20%;
+    text-align: middle;
 }
 
 .headergrid #section-b{
@@ -81,7 +80,7 @@ a{
     grid-template-areas:
     ". . . b b b"
     "a a a b b b"
-    "c c . b b b"
+    ". c . b b b"
     ". . . b b b";
 }
 /* MAIN AREA */
